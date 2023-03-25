@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			@keyframes rotatediv{
+				0%
+				{
+		transform: rotate(0deg);
+				}
+				100%{
+					transform: rotate(360deg)
+				}
+			}
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				background-color: black;
+			}
+			.main{
+				width: 400px;
+				height: 400px;
+				margin: 100px auto;
+				position: relative;
+			}
+			.gola{
+				width: 400px;
+				height: 400px;
+				position: relative;
+				border: 2px solid pink;
+				border-radius: 50%;
+				animation:rotatediv 15s infinite linear ;
+			}
+			.dots{
+				width: 20px;
+				height: 20px;
+				background: white;
+				position: absolute;
+				top: 0%;
+				border-radius: 50%;
+				left: 31%;
+			}
+			.dots-ring{
+				width: 30px;
+				height: 30px;
+		          border: 2px solid white;
+				position: absolute;
+				top: -7px;
+				transform: rotateX(75deg);
+				border-radius: 50%;
+				left: -7px;
+			}
+			.gola2{
+				width: 350px;
+				height: 350px;
+				position: absolute;
+				top: 26px;
+				left: 27px;
+                    border: 2px solid pink ;
+                    border-radius: 50%;
+                    animation: rotatediv 12s infinite linear;
+			}
+			.jupiter{
+				width: 15px;
+				height: 15px;
+				background: white;
+				position: absolute;
+				top: 0px;
+				left: 31%;
+				border-radius: 50%;
+
+               }
+               .gola3{
+               	width: 300px;
+				height: 300px;
+				position: absolute;
+				top: 53px;
+				left: 52px;
+                    border: 2px solid pink ;
+                    border-radius: 50%;
+                    animation: rotatediv 10s infinite linear;
+               }
+               .mars{
+               	width: 12px;
+				height: 12px;
+				background:  orangered;
+				position: absolute;
+				top: 0px;
+				left: 31%;
+				border-radius: 50%;
+               }
+               .gola4{
+               	width: 250px;
+				height: 250px;
+				position: absolute;
+				top: 78px;
+				left: 79px;
+                    border: 2px solid pink ;
+                    border-radius: 50%;
+                    animation: rotatediv 8s infinite linear;
+               }
+               .earth{
+               	width: 10px;
+				height: 10px;
+				background: skyblue;
+				position: absolute;
+				top: 0px;
+				left: 31%;
+				border-radius: 50%;
+				animation: rotatediv 2s infinite linear;
+
+               }
+               .moon{
+               	width: 5px;
+               	height: 5px;
+               	background: white;
+               	position: absolute;
+               	top: 0px;
+               	left: 15px;
+               	border-radius: 50%;
+               }
+               .gola5{
+               	width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 104px;
+				left: 104px;
+                    border: 2px solid pink ;
+                    border-radius: 50%;
+                    animation: rotatediv 6s infinite linear;
+               }
+               .venus{
+               	width: 8px;
+				height: 8px;
+				background: whitesmoke;
+				position: absolute;
+				top: 0px;
+				left: 31%;
+				border-radius: 50%;
+               }
+               .gola6{
+               	width: 150px;
+				height: 150px;
+				position: absolute;
+				top: 130px;
+				left: 129px;
+                    border: 2px solid pink ;
+                    border-radius: 50%;
+                    animation: rotatediv 4s infinite linear;
+               }
+               .mercury{
+               	width: 6px;
+				height: 6px;
+				background: darkorange;
+				position: absolute;
+				top: 0px;
+				left: 31%;
+				border-radius: 50%;
+               }
+               .sun{
+               	width: 80px;
+               	height: 80px;
+               	position: absolute;
+               	top: 165px;
+               	left: 165px;
+               	box-shadow: 0px 0px 10px 5px yellow;
+               	border-radius: 50%;
+               	background-color: yellow;
+               }
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="gola">
+				<div class="dots">
+					<div class="dots-ring"></div>
+				</div>
+               </div>
+			<div class="gola2">
+				<div class="jupiter"></div>
+			</div>
+			<div class="gola3">
+				<div class="mars"></div>
+			</div>
+			<div class="gola4">
+				<div class="earth">
+					<div class="moon"></div>
+				</div>
+			</div>
+			<div class="gola5">
+				<div class="venus"></div>
+			</div>
+			<div class="gola6">
+				<div class="mercury"></div>
+			</div>
+			<div class="sun"></div>
+		</div>
+	</body>
+</html>
